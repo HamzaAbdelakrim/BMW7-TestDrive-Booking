@@ -1,51 +1,182 @@
-# BMW 7 Series – Test Drive Booking
+# \# BMW 7 Series – Test Drive Booking System
 
-A React website for exploring the BMW 7 Series and reserving a demo test-drive time.
-The site keeps the dark and cyan styling of the original BMW website.
+# 
 
-## Run locally
+# CSCI426 – Lebanese International University (LIU)
 
-Requires Node.js and npm. Open the project folder (where `package.json` is located).
+# 
 
-```bash
-npm install
-npm run dev
-```
+# Student: Hamza Abdelkarim  
 
-Open the local link shown in the terminal (normally `http://localhost:5173`).
-To check the production build:
+# Student ID: 12431036  
 
-```bash
-npm run build
-```
+# Instructor: Dr. Iman Darwish  
 
-On Windows PowerShell, use `npm.cmd` instead of `npm` if script execution is blocked.
+# Submission Date: November 15, 2026  
 
-## Pages
+# Project: Individual
 
-- **Home:** BMW introduction and test-drive link.
-- **About:** information about the vehicle and its features.
-- **Features:** technical specifications.
-- **Garage:** photo gallery.
-- **Contact:** contact form with basic validation (demo only; no email is sent).
-- **Booking:** choose a date and time, enter details, confirm, view and cancel reservations.
-- **Sign In:** enter a display name shared with the navbar using React Context. Not real authentication.
+# 
 
-## Technologies
+# \## Project Description
 
-React, JavaScript, HTML, CSS, React Router and Vite.
+# 
 
-The booking page uses `useState`, `useEffect`, props, `onClick` and form events. It saves demo bookings with `localStorage` and JSON. Other pages demonstrate `map()` and conditional rendering.
+# This project is a BMW 7 Series website developed using ReactJS, HTML, CSS, and JavaScript.
 
-**Note:** Bookings are saved only in the current browser. They are not shared across devices and do not reserve a real appointment with BMW.
+# 
 
-## Before submission
+# The website allows visitors to explore the BMW 7 Series, view its features and specifications, browse images, and book a test drive online.
 
-- Test the pages, booking and mobile layout.
-- Add actual screenshots of the running website to this README.
-- Push the project to GitHub with genuine development commits.
-- Deploy the website (configured for Vercel).
-- Complete the CSCI426 PDF report and contribution statement.
-- Confirm project idea approval and accurately credit the original CSCI390 project contributor(s) and subsequent work.
+# 
 
-The report outline is in `REPORT_DRAFT.md`.
+# The main purpose of this project is to create an interactive website where users can easily select a date and time for a test drive and manage their reservations.
+
+# 
+
+# \## Website Features
+
+# 
+
+# The website includes the following features:
+
+# 
+
+# \- Home page introducing the BMW 7 Series.
+
+# \- About page with information about the vehicle.
+
+# \- Features page displaying vehicle specifications.
+
+# \- Garage page showing different images of the car.
+
+# \- Contact form with input validation.
+
+# \- Test-drive booking with date and time selection.
+
+# \- Booking confirmation and cancellation.
+
+# \- A list of saved reservations.
+
+# \- A simple sign-in demonstration.
+
+# \- Responsive design for different screen sizes.
+
+# 
+
+# \## Technologies Used
+
+# 
+
+# The project was developed using:
+
+# 
+
+# \- ReactJS for building the website components.
+
+# \- HTML and CSS for the website structure and design.
+
+# \- JavaScript for the website functionality.
+
+# \- React Router for navigation between pages.
+
+# \- React Hooks (useState, useEffect, and useContext).
+
+# \- Props for passing information between components.
+
+# \- LocalStorage and JSON for saving booking information.
+
+# 
+
+# \## How to Run the Project
+
+# 
+
+# 1\. Download or clone the project from GitHub.
+
+# 2\. Open the project folder in Visual Studio Code.
+
+# 3\. Open the terminal.
+
+# 4\. Install the required packages using:
+
+# 
+
+# &#x20;  npm install
+
+# 
+
+# 5\. Start the project using:
+
+# 
+
+# &#x20;  npm run dev
+
+# 
+
+# 6\. Open the localhost link displayed in the terminal.
+
+# 
+
+# To build the project for production, use:
+
+# 
+
+# &#x20;  npm run build
+
+# 
+
+# \## How the Booking System Works
+
+# 
+
+# The user clicks the "Book a Test Drive" button and selects a preferred date and time.
+
+# 
+
+# After entering their personal information, the user can confirm the reservation.
+
+# 
+
+# The system checks the information and saves the booking in the browser using localStorage.
+
+# 
+
+# Users can also view their previous reservations and cancel them if needed.
+
+# 
+
+# The system prevents the same time slot from being booked twice within the same browser.
+
+# 
+
+# \## Project Links
+
+# 
+
+# GitHub Repository:
+
+# https://github.com/HamzaAbdelakrim/BMW7-TestDrive-Booking
+
+# 
+
+# Live Website:
+
+# https://bmw7-testdrive-booking.vercel.app/
+
+# 
+
+# \## Notes
+
+# 
+
+# This project was developed for educational purposes as part of the CSCI426 course.
+
+# 
+
+# The booking system uses localStorage instead of a database, so reservations are saved locally in the user's browser. The sign-in feature is a simple demonstration and does not provide real authentication.
+
+# 
+
+# The website is not affiliated with BMW, and no real test-drive appointments are created.
+
